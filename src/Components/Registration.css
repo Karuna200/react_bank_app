@@ -1,0 +1,72 @@
+
+.dynamic-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(270deg, #00dbde, #fc00ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+#forms-contain{
+   margin: auto;
+   margin-top: 100px;
+}
+.form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 300px;
+    text-align: center;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form button:hover {
+    background-color: #062e08;
+}
+#link{
+    padding: -1px;
+    color: wheat;
+
+}
